@@ -1,0 +1,93 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/public/picture.jpg");
+}
+
+p, h2 {
+    font-size: 34px;
+    margin: 0;
+}
+
+h2 {
+    color: cornsilk;
+}
+
+.App,
+.fresh-ideas {
+    width: 100%;
+}
+
+.fresh-ideas,
+.fresh-ideas__block-cards {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ideas {
+    margin: 60px auto 0 auto;
+}
+
+.ideas, .circle-item,
+.carousel-card__flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ideas__title, h2,
+.carousel-margin {
+    margin-bottom: 40px;
+}
+
+.ideas-card,
+.carousel-card {
+    height: 98px;
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+}
+
+.carousel-card__carousel-style,
+.circle, .circle-item__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-card__flex-wrapper {
+    padding: 5px 12px 13px 12px;
+}
+
+.carousel-style__text-ideas {
+    display: flex;
+    align-items: center;
+}
+
+.achievements__title,
+.challenges__title {
+    display: flex;
+    justify-content: center;
+}
+.carousel-style__text-ideas,
+.circle, .challenges, .App {
+    margin: 0 auto;
+}
+
+.fresh-ideas, .circle,
+.challenges {
+    flex-direction: column;
+}
+
+.circle__circle-block,
+.challenges {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-item__circle {
+    box-shadow: 10px 10px 20px #666666,
+    -10px -10px 20px #ffffff;
+}
